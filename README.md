@@ -43,13 +43,12 @@ python metadataExtractor.py
 
 # Image Metadata Bulk Inserter
 
-This Python script, `metadatabulkInserter.py`, automates the process of inserting GPS metadata into image files. It reads GPS coordinates from an Excel file and updates the images' EXIF data accordingly.
+This Python script, `metadatabulkInserter.py`, automates the process of inserting metadata into image files. It reads the metadata from an Excel file and updates the images' EXIF data accordingly.
 
 ## Features
 
-- Reads GPS coordinates (latitude and longitude) from an Excel spreadsheet.
-- Converts GPS coordinates from decimal degrees to degrees, minutes, and seconds (DMS), the format required by EXIF standards.
-- Inserts GPS coordinates into the EXIF data of specified image files.
+- Reads and Converts GPS coordinates from decimal degrees to degrees, minutes, and seconds (DMS), the format required by EXIF standards.
+- Updates all the EXIF data present in the excel columns in the specified image files.
 
 ## Requirements
 
